@@ -1,0 +1,76 @@
+.grid {
+    font-size:0px;
+    padding-top:0.6875in;
+    padding-left:0.5in;
+    width:9.0625in;
+    height:7.875in;
+    border: 1px solid;
+    border-color:black;
+}
+
+.light-row {
+    margin:0px;
+    height:0.25862in;
+}
+
+.light-offset {
+    width:0.12931in;
+    height:0.25862in;
+    display:inline-block;
+}
+
+.light {
+    width:0.25862in;
+    height:0.25862in;
+    display:inline-block;
+    padding:0px;
+    background-color:white;
+    vertical-align: bottom;
+    font-size:0.2in;
+    text-align:center;
+    border:1px solid;
+    border-color:#efefef;
+}
+
+.color-P {
+    color:pink;
+}
+.color-O {
+    color:orange;
+}
+.color-Y {
+    color:yellow;
+}
+.color-G {
+    color:green;
+}
+.color-B {
+    color:blue;
+}
+.color-W {
+    color:white;
+}
+
+.palette-color {
+    width:0.5in;
+    height:0.5in;
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    vertical-align: bottom;
+    font-size:0.4in;
+    text-align:center;
+}
+.palette {
+    margin-top:0.25in;
+}
+
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
