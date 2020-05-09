@@ -13,10 +13,10 @@ grid:
         <div class="light-offset"></div>
     {{/offset}}
     {{#each .: column}}
-        <div class="light {{#light}}color-{{color}}{{/light}}" 
+        <div class="light {{#.}}color-{{.}}{{/.}}" 
              data-row={{row}} 
              data-column={{column}}>
-             {{#light}}{{color}}{{/light}}
+             {{#.}}{{.}}{{/.}}
         </div>
     {{/each}}
     </div>

@@ -15,7 +15,7 @@ for (var row_index=0;row_index<25;row_index++) {
         if (column_index === 30 && (row_index % 2 === 0)) {
             continue;
         }
-        row.push({light:false});
+        row.push("");
     }
     app.data.grid.push(row);
 }
@@ -57,11 +57,10 @@ var import_export = function() {
 var tap_light = function(e) {
     var row = e.currentTarget.dataset.row
     var column = e.currentTarget.dataset.column
-    if (app.data.grid[row][column].light && app.data.grid[row][column].color === app.data.current_color) {
-        app.data.grid[row][column].light = false;
+    if (app.data.grid[row][column] === app.data.current_color) {
+        app.data.grid[row][column] = '';
     } else {
-        app.data.grid[row][column].light = true;
-        app.data.grid[row][column].color = app.data.current_color;
+        app.data.grid[row][column] = app.data.current_color;
     }
     localStorage.setItem('pattern', JSON.stringify(app.data.grid))
     app.update();
