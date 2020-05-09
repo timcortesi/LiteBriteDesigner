@@ -32,6 +32,7 @@ palette:
     <div class="palette-color" style="background-color:green" data-color="G"></div>
     <div class="palette-color" style="background-color:blue" data-color="B"></div>
     <div class="palette-color" style="background-color:gray" data-color="W"></div>
+    <div class="import-export-btn"><span>I/O</span></div>
 </div>
 `
 };

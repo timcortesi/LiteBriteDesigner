@@ -71,6 +71,21 @@
     margin-top:0.25in;
     display:inline-block;
 }
+.import-export-btn {
+    background-color:black;
+    width:0.5in;
+    height:0.5in;
+    padding:0px;
+    margin:0px;
+    vertical-align: bottom;
+    color:white;
+    font-size:24px;
+    text-align:center;
+    border-radius:0.2in;
+}
+.import-export-btn > span {
+    vertical-align:middle;
+}
 
 body{
     -webkit-touch-callout: none;
