@@ -26,6 +26,10 @@ $( document ).ready(function() {
 // if ('ontouchstart' in document.documentElement) {
 //     $('body').on('tap','.light',init_book);
 // } else {
+    if (localStorage.getItem('pattern')) {
+        app.data.grid = JSON.parse(localStorage.getItem('pattern'))
+        app.update();
+    }
     $('body').on('mousedown','.light',tap_light);
     $('body').on('mousedown','.palette-color',tap_palette);
 
@@ -41,6 +45,7 @@ var tap_light = function(e) {
         app.data.grid[row][column].light = true;
         app.data.grid[row][column].color = app.data.current_color;
     }
+    localStorage.setItem('pattern', JSON.stringify(app.data.grid))
     app.update();
 }
 var tap_palette = function(e) {

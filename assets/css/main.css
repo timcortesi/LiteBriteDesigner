@@ -1,11 +1,8 @@
 .grid {
     font-size:0px;
-    padding-top:0.6875in;
-    padding-left:0.5in;
-    width:9.0625in;
-    height:7.875in;
-    border: 1px solid;
-    border-color:black;
+    padding:20px;
+    width:9in;
+    display:inline-block;
 }
 
 .light-row {
@@ -48,13 +45,12 @@
     color:blue;
 }
 .color-W {
-    color:white;
+    color:black;
 }
 
 .palette-color {
     width:0.5in;
     height:0.5in;
-    display:inline-block;
     padding:0px;
     margin:0px;
     border:0px;
@@ -64,6 +60,7 @@
 }
 .palette {
     margin-top:0.25in;
+    display:inline-block;
 }
 
 body{

@@ -1,0 +1,17 @@
+.grid {
+    font-size:0px;
+    padding-top:0.6875in;
+    padding-left:0.5in;
+    width:9.0625in;
+    height:7.875in;
+    border: 1px solid;
+    border-color:black;
+}
+
+.light {
+    border-color:#fff;
+}
+
+.palette {
+    display:none;
+}
