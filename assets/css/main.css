@@ -27,25 +27,32 @@
     text-align:center;
     border:1px solid;
     border-color:#efefef;
+    border-radius:.1in;
 }
 
 .color-P {
     color:pink;
+    background-color:pink;
 }
 .color-O {
     color:orange;
+    background-color:orange;
 }
 .color-Y {
     color:yellow;
+    background-color:yellow;
 }
 .color-G {
     color:green;
+    background-color:green;
 }
 .color-B {
     color:blue;
+    background-color:blue;
 }
 .color-W {
-    color:black;
+    color:gray;
+    background-color:gray;
 }
 
 .palette-color {
@@ -57,8 +64,10 @@
     vertical-align: bottom;
     font-size:0.4in;
     text-align:center;
+    border-radius:0.2in;
 }
 .palette {
+    vertical-align:top;
     margin-top:0.25in;
     display:inline-block;
 }

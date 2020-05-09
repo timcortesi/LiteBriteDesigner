@@ -26,12 +26,12 @@ grid:
 palette:
 `
 <div class="palette">
-    <div class="palette-color" style="background-color:pink" data-color="P">P</div>
-    <div class="palette-color" style="background-color:orange" data-color="O">O</div>
-    <div class="palette-color" style="background-color:yellow" data-color="Y">Y</div>
-    <div class="palette-color" style="background-color:green" data-color="G">G</div>
-    <div class="palette-color" style="background-color:blue" data-color="B">B</div>
-    <div class="palette-color" style="background-color:white" data-color="W">W</div>
+    <div class="palette-color" style="background-color:pink" data-color="P"></div>
+    <div class="palette-color" style="background-color:orange" data-color="O"></div>
+    <div class="palette-color" style="background-color:yellow" data-color="Y"></div>
+    <div class="palette-color" style="background-color:green" data-color="G"></div>
+    <div class="palette-color" style="background-color:blue" data-color="B"></div>
+    <div class="palette-color" style="background-color:gray" data-color="W"></div>
 </div>
 `
 };
