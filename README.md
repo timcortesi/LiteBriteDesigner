@@ -1,6 +1,6 @@
 # LiteBriteDesigner
 
-LiteBriteDesigner allows users to design and print Lite-Brite pattersn for the Lite-Brite Ultimate Classic (8.125” W x 6.875” H.) 
+LiteBriteDesigner allows users to design and print Lite-Brite patterns for the Lite-Brite Ultimate Classic (8.125” W x 6.875” H.) 
 [(Amazon Link)](https://www.amazon.com/Basic-Fun-02215-Lite-Brite-Ultimate/dp/B01N6B8SX0/)
 
 Try it here: https://timcortesi.github.io/LiteBriteDesigner/
