@@ -1,7 +1,6 @@
 # LiteBriteDesigner
 
-LiteBriteDesigner allows users to design and print LiteBrite pannerns for the Lite-Brite Ultimate Classic (8.125” W x 6.875” H.) https://www.amazon.com/Basic-Fun-02215-Lite-Brite-Ultimate/dp/B01N6B8SX0/
-
+LiteBriteDesigner allows users to design and print Lite-Brite pattersn for the Lite-Brite Ultimate Classic (8.125” W x 6.875” H.) https://www.amazon.com/Basic-Fun-02215-Lite-Brite-Ultimate/dp/B01N6B8SX0/ (Amazon Link)
 
 ![Yoda Screenshot](https://timcortesi.github.io/LiteBriteDesigner/readme/yoda_screenshot.png)
 
