@@ -1,15 +1,26 @@
 .grid {
-    font-size:0px;
+    /* 
+    Full Size Template (Replaced with 8 inch template)
     padding-top:0.6875in;
     padding-left:0.5in;
     width:9.0625in;
-    height:7.875in;
+    height:7.875in; 
+    */
+    padding-top:0.15in;
+    padding-left:0.00in;
+    width:8.025in;
+    height:6.825in; 
+    font-size:0px;
     border: 1px solid;
     border-color:black;
 }
 
+.light-row {
+    white-space: nowrap;
+}
+
 .light {
-    border-color:#fff;
+    border:none;
 }
 
 .palette {
