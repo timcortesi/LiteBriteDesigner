@@ -24,8 +24,11 @@ app.update();
 $(document).ready(function() {
     if ('ontouchstart' in document.documentElement) {
         $('body').on('tap','.light',tap_light);
+        $('body').on('longtap','.light',tap_light);
         $('body').on('tap','.palette-color',tap_palette);
+        $('body').on('longtap','.palette-color',tap_palette);
         $('body').on('tap','.import-export-btn',import_export);
+        $('body').on('longtap','.import-export-btn',import_export);
     } else {
         if (localStorage.getItem('pattern')) {
             app.data.grid = JSON.parse(localStorage.getItem('pattern'))
